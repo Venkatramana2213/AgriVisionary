@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AgriVisionary</title>
+	 <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<style type="text/css">
+		
+		 footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+         header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+         nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 30px;
+        }
+        nav a:hover {
+            color: orange;
+        }
+         .logo-container {
+            position: fixed;
+            top: 95px;
+            right: 20px;
+           
+        }
+
+        
+        .logo-image {
+            width: 65px; 
+            height: 50px; 
+            padding-top:20;
+        }
+        body{
+            background-color: #66CDAA;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color:lightsalmon;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+        background-color:blueviolet;
+
+        }
+	</style>
+</head>
+<body>
+	<div id="google_translate_element"></div>
+ <div class="logo-container">
+        <img src="agri.jpg" alt="Logo" class="logo-image">
+    </div>
+    <header>
+    <h1>AgriVisionary</h1>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="schemes.html">Schemes</a>
+    <a href="contactus.html">Contact		Us</a>
+    <a href="login.html">Login</a>
+   
+ </nav>
+  <div class="container" style="background:lightblue;">
+        <h2>Contact Us</h2>
+        <form action="https://mail.proton.me/u/0/inbox/lHSvgrUrXCBNX779v1iu4MpDiYu2CBMsek6v4Z-JI2-LSXiqzfwq7HWDMijqu31wO_sUzGdHbCrj8n4w05yclA==" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,te,hi'}, 'google_translate_element');
+    }
+</script>
+</html>

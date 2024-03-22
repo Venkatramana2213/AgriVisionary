@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AgriVisionary</title>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+	<style type="text/css">
+
+		 footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+         header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+         nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 30px;
+        }
+        nav a:hover {
+            color: orange;
+        }
+         .logo-container {
+            position:fixed;
+            top: 95px;
+            right: 20px;
+           
+        }
+
+        
+        .logo-image {
+            width: 65px; 
+            height: 50px; 
+            padding-top:20;
+        }
+        body{
+            background-color: #66CDAA;
+        }
+         .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .content {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .image {
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .image img {
+        max-width: 100%;
+        height: auto;
+    }
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+
+        .image,
+        .content {
+            flex: unset;
+            width: 100%;
+        }
+    }
+       	</style>
+</head>
+<body>
+     <div id="google_translate_element"></div>
+    <div class="logo-container">
+        <img src="agri.jpg" alt="Logo" class="logo-image">
+    </div>
+    <header>
+    <h1>AgriVisionary</h1>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="schemes.html">Schemes</a>
+    <a href="contactus.html">Contact    Us</a>
+    <a href="login.html">Login</a>
+   
+ </nav>
+  <h2 style="color:white; background-color:#4CAF50;text-align:center;border-radius:25px;margin-left:25%;margin-right:25%;"><b>Welcome!</b></h2>
+
+
+<div class="container">
+    <div class="content">
+        <h3>
+         <p style="color:white">*This website will provide you about the information and techniques related to improve the agricultural production like: </p>
+     </h3>
+         <p>1.Guide on how to improve agricultural production,types,activities,ways to improve agricultural production</p>
+         <p>2.Minimizing the use of fertilizers and pesticides</p>
+         <p>3.Use the techniques like crop rotation and mixed crop cultivation</p>
+         <p>4.use advanced technology to improve agricultural production</p>
+         <p>5.Use artificial intellegence (AI) for automation</p>
+    </div>
+    <div class="image">
+        <img src="agtech.jpg" alt="Image">
+    </div>
+</div>
+
+
+</body>
+ <script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,te,hi'}, 'google_translate_element');
+    }
+</script>
+
+</html>
